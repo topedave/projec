@@ -1,0 +1,65 @@
+body{
+    background-color: hsla(240, 5%, 13%, 0.37);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+
+
+
+header{
+      border-style: 5px solid black;
+      background-color: #730fe6;
+      border-top: 20px;
+      text-align: center;
+      height: 100px;
+      font-size: larger;
+      padding:25px;
+      
+}
+nav{
+    background-color: bisque;
+    text-align:center;
+    color: black;
+    border-style: 50px;
+    border-top: 20px;
+    padding: 25px;
+    
+}
+nav li{
+    display: inline;
+    padding: 10px;
+    font-size: larger;
+    margin: 10px;
+    border: 50px;
+    
+
+}
+
+
+aside{
+height: 1500px;
+float: left;
+border-style:1px black;
+background-color:bisque;
+border: 10px;
+font-size: large;
+
+
+}
+
+
+ /* grid display */
+.grid-container{
+    display:grid;
+    grid-template-columns:200px 200px 200px;
+}
+
+
+footer{
+    border-radius: 20px;
+    border-color: burlywood;
+}
+
+
+
